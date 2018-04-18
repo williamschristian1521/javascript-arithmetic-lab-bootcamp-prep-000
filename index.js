@@ -30,7 +30,10 @@ function dec(n)
 
 function makeInt(n)
 {
-  return parseInt(a)
+  return parseInt(n)
 }
 
-function
+function preserveDecimal(n)
+{
+  return parseFloat(n)
+}
